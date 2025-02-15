@@ -118,10 +118,6 @@ local point = lib.points.new({
     distance = Config.PointDistance,
 })
 
-function point:onEnter()
-    
-end
-
 function point:onExit()
     lib.hideTextUI()
 end
