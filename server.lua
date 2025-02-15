@@ -17,7 +17,6 @@ lib.callback.register('ejj_pilotjob:AddPilotLicense', function(source)
         })
 
         if result > 0 then
-            print("Pilot license successfully added.")
             return true
         else
             print("Failed to add pilot license.")
